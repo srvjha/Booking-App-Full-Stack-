@@ -1,0 +1,54 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .LGcontainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    .LGwrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .LGlogo {
+        font-weight: 800;
+        font-size: 20px;
+      }
+
+      .LGform {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+          height: 25px;
+          
+          outline: none;
+          border: 2px solid black;
+        }
+      }
+      .LGbutton {
+        color: rgb(6, 0, 0);
+        background-color: rgb(113, 149, 247);
+        padding: 10px 22px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+}
